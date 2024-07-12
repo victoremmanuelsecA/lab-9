@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Museum</title>
+    <link rel="stylesheet" href="museum.css">
+</head>
+<body>
+    <header>
+        <h1>Animal Museum</h1>
+    </header>
+    <section id="filters">
+        <button class="filter-btn" data-category="all">All</button>
+        <button class="filter-btn" data-category="mammals">Mammals</button>
+        <button class="filter-btn" data-category="fish">Fish</button>
+        <button class="filter-btn" data-category="birds">Birds</button>
+        <button class="filter-btn" data-category="reptiles">Reptiles</button>
+        <button class="filter-btn" data-category="amphibians">Amphibians</button>
+    </section>
+    <section id="descriptions">
+        <div class="description" data-category="mammals">
+            <h2>Mammals</h2>
+            <p>Mammals are warm-blooded animals with hair or fur. They give birth to live young and feed them with milk produced by mammary glands.</p>
+        </div>
+        <div class="description" data-category="fish">
+            <h2>Fish</h2>
+            <p>Fish are cold-blooded animals that live in water. They have gills that allow them to breathe underwater and fins that help them swim.</p>
+        </div>
+        <div class="description" data-category="birds">
+            <h2>Birds</h2>
+            <p>Birds are warm-blooded animals with feathers, wings, and beaks. Most birds can fly, and they lay eggs with hard shells.</p>
+        </div>
+        <div class="description" data-category="reptiles">
+            <h2>Reptiles</h2>
+            <p>Reptiles are cold-blooded animals that have scales and lay eggs. They include snakes, lizards, turtles, and crocodiles.</p>
+        </div>
+        <div class="description" data-category="amphibians">
+            <h2>Amphibians</h2>
+            <p>Amphibians are cold-blooded animals that spend part of their life in water and part on land. They include frogs, toads, and salamanders.</p>
+        </div>
+    </section>
+    <section id="gallery">
+        <div class="image-container" data-category="mammals">
+            <img src="lion.avif" alt="Lion">
+            <p class="animal-name">Lion</p>
+        </div>
+        <div class="image-container" data-category="mammals">
+            <img src="elephant.jpeg" alt="Elephant">
+            <p class="animal-name">Elephant</p>
+        </div>
+        <div class="image-container" data-category="mammals">
+            <img src="tiger.avif" alt="Tiger">
+            <p class="animal-name">Tiger</p>
+        </div>
+        <div class="image-container" data-category="mammals">
+            <img src="bear.jpeg" alt="Bear">
+            <p class="animal-name">Bear</p>
+        </div>
+        <div class="image-container" data-category="mammals">
+            <img src="girrafe.jpeg" alt="Giraffe">
+            <p class="animal-name">Giraffe</p>
+        </div>
+
+        <div class="image-container" data-category="fish">
+            <img src="clown fish.jpeg" alt="Clownfish">
+            <p class="animal-name">Clownfish</p>
+        </div>
+        <div class="image-container" data-category="fish">
+            <img src="salmon.png" alt="Salmon">
+            <p class="animal-name">Salmon</p>
+        </div>
+        <div class="image-container" data-category="fish">
+            <img src="shark.jpeg" alt="Shark">
+            <p class="animal-name">Shark</p>
+        </div>
+        <div class="image-container" data-category="fish">
+            <img src="goldfish.jpeg" alt="Goldfish">
+            <p class="animal-name">Goldfish</p>
+        </div>
+        <div class="image-container" data-category="fish">
+            <img src="tuna.jpeg" alt="Tuna">
+            <p class="animal-name">Tuna</p>
+        </div>
+
+        <div class="image-container" data-category="birds">
+            <img src="eagle.jpeg" alt="Eagle">
+            <p class="animal-name">Eagle</p>
+        </div>
+        <div class="image-container" data-category="birds">
+            <img src="parrot.webp" alt="Parrot">
+            <p class="animal-name">Parrot</p>
+        </div>
+        <div class="image-container" data-category="birds">
+            <img src="owl.jpeg" alt="Owl">
+            <p class="animal-name">Owl</p>
+        </div>
+        <div class="image-container" data-category="birds">
+            <img src="penguin.jpeg" alt="Penguin">
+            <p class="animal-name">Penguin</p>
+        </div>
+        <div class="image-container" data-category="birds">
+            <img src="flamingo.jpeg" alt="Flamingo">
+            <p class="animal-name">Flamingo</p>
+        </div>
+
+        <div class="image-container" data-category="reptiles">
+            <img src="snake.jpeg" alt="Snake">
+            <p class="animal-name">Snake</p>
+        </div>
+        <div class="image-container" data-category="reptiles">
+            <img src="lizard.jpeg" alt="Lizard">
+            <p class="animal-name">Lizard</p>
+        </div>
+        <div class="image-container" data-category="reptiles">
+            <img src="crocodile.webp" alt="Crocodile">
+            <p class="animal-name">Crocodile</p>
+        </div>
+        <div class="image-container" data-category="reptiles">
+            <img src="turtle.jpeg" alt="Turtle">
+            <p class="animal-name">Turtle</p>
+        </div>
+        <div class="image-container" data-category="reptiles">
+            <img src="chamelon.jpeg" alt="Chameleon">
+            <p class="animal-name">Chameleon</p>
+        </div>
+
+        <div class="image-container" data-category="amphibians">
+            <img src="frog.webp" alt="Frog">
+            <p class="animal-name">Frog</p>
+        </div>
+        
+        <div class="image-container" data-category="amphibians">
+            <img src="toad.jpeg" alt="Toad">
+            <p class="animal-name">Toad</p>
+        </div>
+        <div class="image-container" data-category="amphibians">
+            <img src="salamander.jpeg" alt="Salamander">
+            <p class="animal-name">Salamander</p>
+        </div>
+        <div class="image-container" data-category="amphibians">
+            <img src="newt.jpeg" alt="Newt">
+            <p class="animal-name">Newt</p>
+        </div>
+        <div class="image-container" data-category="amphibians">
+            <img src="cracilian.jpeg" alt="Caecilian">
+            <p class="animal-name">Caecilian</p>
+        </div>
+    </section>
+    <div id="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-img" src="" alt="">
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="museum.js"></script>
+</body>
+</html>
+
+
